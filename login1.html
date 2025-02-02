@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"/></head>
+<body>
+    <header>
+        <div class="circle-chevron">
+            <button1 class="chevron-btn" id="next">
+                <a href="onboard.html"><i class="fas fa-chevron-left"></i></a>
+            </button>
+        </div>
+        <div class="hd">
+            <h1>WELCOME BACK</h1>
+         <p>Enter your details below to Log in Here.</p>
+        </div>
+    </header>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="@gmail.com" required>
+            </div>
+            <div class="form-group pass">
+                <label for="password">Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password" name="password" placeholder="*******" required>
+                    <i class="fa-regular fa-eye-slash" id="toggle-password"></i>
+                </div>
+            </div>
+            <div class="form-group remember-forgot">
+                <label class="check">
+                    <input type="checkbox" name="remember"> Remember me
+                </label>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </form>
+        <div class="foot">
+            <button type="submit" class="btn login-btn">Log In</button>
+            <p class="signup">I don’t have an account. <a href="SignUp.html">Sign up.</a></p>
+        </div>
+    </div>
+</body>
+</html>

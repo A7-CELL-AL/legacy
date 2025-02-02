@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <header>
+        <div class="hd">
+            <h1>Create new account</h1>
+            <p>Fill personal details below to create an new account now</p>
+        </div>
+    </header>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="text" id="last name"
+                placeholder="First-name" reqiured>
+            </div>
+            <div class="form-group">
+                <label for="last name">Last name</label>
+                <input type="text" id="last name"
+                placeholder="Last name" reqiured>
+            </div>
+            <div class="form-group">
+                <label for="first name">Email adress</label>
+                <input type="email" 
+                placeholder="Email adress" reqiured>
+            </div>
+            <div class="form-group">
+                <label for="Phone number">Phone number</label>
+                <div class="phone-input">
+                    <select class="country" name="country" id="country-code">
+                        <option value="+234">+234</option>
+                        <option value="+233">+233</option>
+                        <option value="+213">+213</option>
+                        <option value="+27">+27</option>
+                        <option value="+230">+230</option>
+                        <option value="+251">+251</option>
+                        <option value="+261">+261</option>
+                        <option value="+216">+216</option>
+                        <option value="+249">+249</option>
+                    </select>
+                    <input type="Phone number"
+                    placeholder="Phone number" reqiured> 
+                </div>
+                <div class="term">
+                    <input type="checkbox">
+                <label for="term">I hereby asgree to the <a href="#" class="rel">Terms & Conditions</a></label>
+                </div>                               
+                <div class="termpla">
+                    <button type="submit" class="btn reg-btn">Register Account</button>
+                    <p class="pt">Already Have an accoun?<a href="login1.html" class="switch-to-login">Login Here</a></p>
+                </div>    
+            </div>
+        </form>
+    </div>
+</body>
+</html>
