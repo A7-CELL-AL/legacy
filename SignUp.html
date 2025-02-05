@@ -6,11 +6,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" href="C:\Users\HP USER\AppData\Local\Temp\7d082b87-7bde-47af-a2a3-7175f4808193_flag-icons-main.zip.193\flag-icons-main\css\flag-icons.min.css">
     <title>SignUp</title>
 </head>
 <body>
     <header>
+        <div class="circle-chevron" a href="login1.html">
+            <button1 class="chevron-btn" id="next">
+                <a href="login1.html"><i class="fas fa-chevron-circle-left"></i></a>
+            </button>
+        </div>
         <div class="hd">
             <h1>Create new account</h1>
             <p>Fill personal details below to create an new account now</p>
@@ -33,7 +38,7 @@
                 <input type="email" 
                 placeholder="Email adress" reqiured>
             </div>
-            <div class="form-group">
+            <div class="form-group" id="phone">
                 <label for="Phone number">Phone number</label>
                 <div class="phone-input">
                     <select class="country" name="country" id="country-code">
@@ -47,8 +52,9 @@
                         <option value="+216">+216</option>
                         <option value="+249">+249</option>
                     </select>
-                    <input type="Phone number"
-                    placeholder="Phone number" reqiured> 
+                    <input type="tel" id="phone" name="phone"
+                     placeholder="Enter Phone number" reqiured> 
+                    <span class="call-icon"></span>
                 </div>
                 <div class="term">
                     <input type="checkbox">
