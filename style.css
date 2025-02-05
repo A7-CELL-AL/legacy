@@ -242,7 +242,9 @@ input[type="tel"] {
 
 .pt {
     display: flex;
-    justify-content: center;
+    align-item: center;
+    justify-content: space-between;
+    gap: 5px;
     margin-top: 20px;
     color: black;
 }
