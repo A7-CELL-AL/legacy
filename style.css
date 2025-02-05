@@ -229,6 +229,11 @@ input[type="tel"] {
     line-height: 1.2;
 }
 
+.term label {
+    padding-left: 8px;
+}
+
+
 .termpla {
     position: relative;
     padding-top: 35px;
